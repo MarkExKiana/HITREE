@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HITREE - Honkai Impact 3rd Website Clone
 
-## Getting Started
+🎮 **Flickers of a Spacetime Warp** - A pixel-perfect clone of the Honkai Impact 3rd promotional website.
 
-First, run the development server:
+![Honkai Impact 3rd](https://img.shields.io/badge/Game-Honkai%20Impact%203rd-orange?style=for-the-badge)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+## ✨ Features
+
+- 🌌 **Dark space/galaxy theme** with beautiful blue-purple gradients
+- 🎨 **Futuristic typography** using Orbitron and Exo 2 custom fonts
+- ⚡ **Stylized title effects** with gradient text and animations
+- 🟠 **Orange accent colors** for branding and interactive elements
+- 📱 **Fully responsive design** that works on all devices
+- 🎭 **Atmospheric effects** including particle backgrounds
+- 🍪 **Cookie consent banner** matching the original design
+- 🎯 **Interactive elements** with smooth hover animations
+
+## 🚀 Getting Started
+
+First, install the dependencies:
 
 ```bash
-npm run dev
+bun install
 # or
-yarn dev
-# or
-pnpm dev
-# or
+npm install
+```
+
+Then, run the development server:
+
+```bash
 bun dev
+# or
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - For type safety
+- **Tailwind CSS** - For styling and animations
+- **shadcn/ui** - UI component library
+- **Google Fonts** - Orbitron & Exo 2 font families
 
-## Learn More
+## 🎯 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── globals.css      # Global styles and custom CSS
+│   ├── layout.tsx       # App layout
+│   └── page.tsx         # Main hero page
+└── lib/
+    └── utils.ts         # Utility functions
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Design Elements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Colors**: Dark navy (#121b2e), orange accents (#e36741), gradients
+- **Typography**: Bold, futuristic fonts perfect for gaming websites
+- **Layout**: Full-screen hero with centered content
+- **Animations**: Hover effects, scale transforms, and smooth transitions
 
-## Deploy on Vercel
+## 📸 Screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The website faithfully recreates the original Honkai Impact 3rd promotional design with modern web technologies.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤖 Generated with Same
+
+This project was created using [Same](https://same.new) - an AI-powered development environment.
+
+## 📄 License
+
+This project is for educational and demonstration purposes only. Honkai Impact 3rd is a trademark of HoYoVerse.
