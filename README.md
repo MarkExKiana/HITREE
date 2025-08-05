@@ -65,14 +65,6 @@ src/
 - **Layout**: Full-screen hero with centered content
 - **Animations**: Hover effects, scale transforms, and smooth transitions
 
-## 📸 Screenshots
-
-The website faithfully recreates the original Honkai Impact 3rd promotional design with modern web technologies.
-
-## 🤖 Generated with Same
-
-This project was created using [Same](https://same.new) - an AI-powered development environment.
-
 ## 📄 License
 
 This project is for educational and demonstration purposes only. Honkai Impact 3rd is a trademark of HoYoVerse.
